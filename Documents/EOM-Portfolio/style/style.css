@@ -1,8 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Righteous&display=swap');
 
-body{
-    
-}
+/* body
+    {
+        width: 100%;
+        height: auto;
+        background-image: url(https://c4.wallpaperflare.com/wallpaper/556/382/458/fantasy-art-artwork-fan-art-science-fiction-wallpaper-preview.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+    } */
+
 
 /* landing */
 #landing{
@@ -23,7 +31,7 @@ font-family: 'Righteous', cursive;
 
 /* testimonials */
 #testimonials{
-    background-image: url(https://wallpaper.dog/large/10992355.jpg);
+    background-image: url(https://wallpaperaccess.com/full/39631.jpg);
     background-repeat:no-repeat;
     background-size: cover;
     background-position: center;
@@ -38,5 +46,5 @@ font-family: 'Righteous', cursive;
 }
 
 #projects img{
-    justify-content: space-between;
+    
 }
