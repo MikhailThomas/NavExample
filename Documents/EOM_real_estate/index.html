@@ -6,20 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./stylesheet/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <title>SWEGGA JS</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <title>EOM_real_estate</title>
 </head>
 <body>
     <!-- landing page -->
     <section id="landing-page" class="text-center px-5 text-light">
-        <h1>Welcome To <br> Location Location Location!!!</h1>
+        <div id="land-text" class="d-flex flex-column justify-content-center align-items-center h-100">
+        <h1 class="py-3">Welcome To <br> Location Location Location!!!</h1>
         <p>Location Location Location is a new and innovative real estate website that will allow you to find your dream home with ease of clicking a button.</p>
+        </div>
     </section>
     <!-- filter -->
-    <section id="filter">
+    <section id="filter" class="text-center">
         <select name="property-type" id="property-type">
         <option value="house">House</option>
         <option value="apartment">Apartment</option>
-        <option value="office-space">Office-Space</option>
         </select>
         <select name="location" id="location">
             <option value="ottery">Ottery</option>
@@ -35,12 +37,13 @@
             <option value="R2000000">R2000000</option>
             <option value="R3000000">R3000000</option>
         </select>
-        <button class="btn">Search</button>
+        <button id="search" class="btn text-light">Search</button>
+    </section>
+
+    <section id="plots">
     </section>
     <!-- plots -->
-    <section>
-        
-    </section>
+   
 
 
 
@@ -56,6 +59,7 @@
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/74a0eec729.js" crossorigin="anonymous"></script>
     <script src="./script/code.js"></script>
 </body>
 </html>
