@@ -1,0 +1,25 @@
+#search{
+    background-color: palevioletred;
+}
+#search:hover{
+    background-color: pink;
+}
+
+#database{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+td img{
+    height: 10rem;
+    max-width: 10rem;
+    flex-grow: 1;
+    object-fit: cover;
+}
+
+#add{
+    background-color: palevioletred;
+}
+#add:hover{
+    background-color: pink;
+}
