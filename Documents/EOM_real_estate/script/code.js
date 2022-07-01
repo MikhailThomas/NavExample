@@ -205,4 +205,3 @@ function filteredType(e) {
     return initiate(filtered);
   }
   
-  

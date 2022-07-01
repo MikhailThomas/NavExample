@@ -4,7 +4,20 @@
 #search:hover{
     background-color: pink;
 }
-
+#filter select{
+    border: solid;
+    border-color: palevioletred;
+}
+#filter select:hover{
+    background-color: pink;
+}
+i{
+    color: palevioletred;
+}
+i:hover{
+    background-color: pink;
+    border-radius: 10px;
+}
 #database{
     display: flex;
     flex-wrap: wrap;
@@ -23,3 +36,10 @@ td img{
 #add:hover{
     background-color: pink;
 }
+#return{
+    background-color: palevioletred;
+}
+#return:hover{
+    background-color: pink;
+}
+

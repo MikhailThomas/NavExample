@@ -29,20 +29,18 @@ h1{
 /* plots */
 #plots{
     display: flex;
-    flex-wrap: wrap;
-    gap: 1rem;
-    justify-content: space-between;
+    flex-wrap: wrap;  
 }
 
 #plots img{
-    height: 22rem;
-    max-width: 22rem;
+    height: 20rem;
+    max-width: 20rem;
     flex-grow: 1;
     object-fit: cover;
 }
 
 .card{
-    width: 600px;
+    max-width: 600px;
     height: 400px;
 }
 
@@ -80,4 +78,10 @@ h1{
 #footer{
     border-top: solid;
     border-color: palevioletred;
+}
+#admin{
+    background-color: palevioletred;
+}
+#admin:hover{
+    background-color: pink;
 }

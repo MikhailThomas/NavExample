@@ -1,28 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./stylesheet/style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
     <title>EOM_real_estate</title>
 </head>
+
 <body>
     <!-- landing page -->
     <section id="landing-page" class="text-center px-5 text-light">
         <div id="land-text" class="d-flex flex-column justify-content-center align-items-center h-100">
-        <h1 class="py-3">Location Location Location!!!</h1>
-        <p>Location Location Location is a new and innovative real estate website that will allow you to find your dream home with the ease of clicking a button... <br>its free real estate.</p>
+            <h1 class="py-3">Location Location Location!!!</h1>
+            <p>Location Location Location is a new and innovative real estate website that will allow you to find your
+                dream home with the ease of clicking a button... <br>its free real estate.</p>
         </div>
     </section>
     <!-- filter -->
     <section id="filter" class="text-center">
         <select name="property-type" id="property-type" onchange="filteredType(event)">
             <option selected value="all">Type</option>
-        <option value="House">House</option>
-        <option value="Apartment">Apartment</option>
+            <option value="House">House</option>
+            <option value="Apartment">Apartment</option>
         </select>
         <select name="Location" id="Location" onchange="filteredLocation(event)">
             <option value="all">Location</option>
@@ -51,23 +55,20 @@
                 <div id="plotLists" class="row">
                 </div>
             </div>
-         </div>
+        </div>
     </section>
+    <div class="text-end">
+    <a href="./admin.html">
+        <button id="admin" class="btn text-light text-end">Admin</button></a>
+    </div>
     <!-- footer -->
     <footer id="footer" class="page-footer font-small special-color-dark pt-4">
         <div class="container">
-        <div class="footer-copyright text-center pb-3">© 2022 Copyright: Mikhail Thomas
-        </div>
+            <div class="footer-copyright text-center pb-3">© 2022 Copyright: Mikhail Thomas
+            </div>
     </footer>
 
 
-    
-
-
-
-
-
-    
 
 
 
@@ -75,8 +76,18 @@
 
 
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
     <script src="https://kit.fontawesome.com/74a0eec729.js" crossorigin="anonymous"></script>
     <script src="./script/code.js"></script>
 </body>
+
 </html>
