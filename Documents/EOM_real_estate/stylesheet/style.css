@@ -19,10 +19,11 @@ h1{
 }
 
 /* filter */
-#search{
-    background-color: palevioletred;
+#filter select{
+    border: solid;
+    border-color: palevioletred;
 }
-#search:hover{
+#filter select:hover{
     background-color: pink;
 }
 /* plots */
@@ -61,10 +62,6 @@ h1{
 }
 
 #coverHover{
-    background: linear-gradient(
-      rgba(0, 0, 0, 0),
-      rgba(0, 0, 0, 0.502)
-    );
     position: absolute;
     top: 0;
     left: 0;
@@ -80,3 +77,7 @@ h1{
     opacity: 1;
   }
 
+#footer{
+    border-top: solid;
+    border-color: palevioletred;
+}

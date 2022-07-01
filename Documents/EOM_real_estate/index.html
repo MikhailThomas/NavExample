@@ -19,32 +19,34 @@
     </section>
     <!-- filter -->
     <section id="filter" class="text-center">
-        <select name="property-type" id="property-type">
-        <option value="house">House</option>
-        <option value="apartment">Apartment</option>
+        <select name="property-type" id="property-type" onchange="filteredType(event)">
+            <option selected value="all">Type</option>
+        <option value="House">House</option>
+        <option value="Apartment">Apartment</option>
         </select>
-        <select name="location" id="location">
-            <option value="ottery">Ottery</option>
-            <option value="fairways">Fairways</option>
+        <select name="Location" id="Location" onchange="filteredLocation(event)">
+            <option value="all">Location</option>
+            <option value="Ottery">Ottery</option>
+            <option value="Fairways">Fairways</option>
         </select>
-        <select name="bedrooms" id="bedrooms">
-            <option value="1room">1 bedroom</option>
-            <option value="2room">2 bedroom</option>
-            <option value="3room">3 bedroom</option>
+        <select name="Bedroom" id="Bedroom" onchange="filteredBedroom(event)">
+            <option value="all">Bedrooms</option>
+            <option value="1 Bedroom">1 bedroom</option>
+            <option value="2 Bedroom">2 bedroom</option>
+            <option value="3 Bedroom">3 bedroom</option>
         </select>
-        <select name="pricelist" id="pricelist">
-            <option value="R1000000">R1000000</option>
-            <option value="R2000000">R2000000</option>
-            <option value="R3000000">R3000000</option>
+        <select name="Price" id="Price" onchange="filteredPrice(event)">
+            <option value="all">Price</option>
+            <option value="R1 000,000">R1000,000</option>
+            <option value="R2 000,000">R2000,000</option>
+            <option value="R3 000,000">R3000,000</option>
         </select>
-        <button id="search" class="btn text-light">Search</button>
     </section>
 
     <!-- plots -->
     <section id="plots">
         <div class="container">
-            <h2>Check our selection of the finest properties</h2>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+            <h2 class="text-center">Check out some of our beautiful locations</h2>
             <div>
                 <div id="plotLists" class="row">
                 </div>
@@ -52,9 +54,9 @@
          </div>
     </section>
     <!-- footer -->
-    <footer class="page-footer font-small special-color-dark pt-4">
+    <footer id="footer" class="page-footer font-small special-color-dark pt-4">
         <div class="container">
-        <div class="footer-copyright text-center py-3">© 2022 Copyright: Mikhail Thomas
+        <div class="footer-copyright text-center pb-3">© 2022 Copyright: Mikhail Thomas
         </div>
     </footer>
 
