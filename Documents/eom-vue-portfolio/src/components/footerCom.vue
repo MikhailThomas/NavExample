@@ -1,0 +1,20 @@
+<template>
+    <footer id="footer" class="">
+          <div class="footer-copyright text-center py-3">© 2022 Copyright: Mikhail Thomas
+          </div>
+    </footer>
+</template>
+<script>
+export default{
+
+}
+</script>
+<style scoped>
+    footer{
+        width: 100vw;
+        background-color: gold;
+        position: fixed;
+        bottom: 0;
+
+    }
+</style>
