@@ -19,7 +19,7 @@ export default {
 @import url('https://fonts.googleapis.com/css?family=Montserrat:900i&display=swap');
 
 #landing{
-  height: 100vh;
+  height: auto;
  background-image: url("../assets/background.webp");
  background-color: #cccccc;
  background-position: center;
@@ -32,16 +32,24 @@ body{
   font-family: 'Montserrat', sans-serif;
 }
 
-span{
-  position: relative;
-  transform: translate(-50%, -50%);
-  font-size:120px;
-  letter-spacing:0.1em;
-  -webkit-text-fill-color: transparent;
-  -webkit-text-stroke-width: 3px;
-  -webkit-text-stroke-color: yellow;
-  text-shadow: 
-            10px 10px red,
-            22px 22px black;
+span {
+  transition: all 0.5s;
+  -webkit-text-stroke: 4px orangered;
+  font-variation-settings: "wght" 900, "ital" 1;
+  font-size: 15rem;
+  text-align: center;
+  color: transparent;
+  font-family: "Meta", sans-serif;
+  text-shadow: 10px 10px 0px #07bccc,
+    15px 15px 0px #e601c0,
+    20px 20px 0px #e9019a,
+    25px 25px 0px #f40468,
+    45px 45px 10px #482896;
+  cursor: pointer;
+}
+
+span:hover {
+  font-variation-settings: "wght" 100, "ital" 0;
+  text-shadow: none;
 }
 </style>

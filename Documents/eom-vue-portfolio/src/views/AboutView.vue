@@ -2,23 +2,48 @@
 <!-- laptop section -->
   <div id="about" class="about container-fluid">
     <!-- images -->
-    <div id="images" class="row mx-auto">
-      <img class="col-4" src="../assets/logo.png" alt="red-tone">
-      <img class="col-4" src="../assets/logo.png" alt="no-tone">
-      <img class="col-4" src="../assets/logo.png" alt="yellow-tone">
-    </div>
+    <section id="main">
+      <div class="frame">
+      	<a href="#">
+        	<span class="caption">
+        		<h2>"THE MAN"</h2>
+            <p class="desc">I am a energetic, happy and loving massage therapist who has taken part in the Healing Hands Academy, holistic massage course. I am determined to perfect my spiritual, physical and mental healing capabilities through touch communication. </p>
+        	</span>
+          <img src="https://assets.codepen.io/2856/batman-detective.jpg">
+        </a>
+      </div>
+      
+      <div class="frame">
+				<a href="#">
+        	<span class="caption">
+        		<h2>MIKHAIL</h2>
+            <p class="desc">Mikhail Eaon Thomas is an aspiring web developer who has been apart of the Life Choices coding internship. This is where he found his passion for web development and design. "My goal in life is to become the best at everything i do, through my hard work, determination and never settling for less than the best".</p>
+        	</span>
+        	<img src="https://assets.codepen.io/2856/daredevil.jpg">
+        	</a>
+        </div>
+      <div class="frame">
+        <a href="#">
+        	<span class="caption">
+        		<h2>"THE MYTH"</h2>
+            <p class="desc">I am a practitioner and a coach of Brazilian Jiu Jitsu.BJJ is a martial art focusing on the skill of taking an opponent to the ground, controlling the opponent, and using a number of techniques to force them into submission. This is the same mindset i use when taking on challenges using skill, knowledge and control to overcome them.</p>
+        	</span>
+      	<img src="https://assets.codepen.io/2856/glc_teamwork.jpg">
+        </a>  
+      </div>
+    </section>
     <!-- /Images/ -->
     <div id="info" class="row">
       <!-- technical skills -->
-      <div id="technical" class="col-3">
+      <div id="technical" class="col-6">
         <h2>TECHNICAL SKILLS</h2>
         <div>
             <p class="d-flex justify-content-between text-center
                     text-sm-center">
               HTML <span>80%</span>
             </p>
-            <div class="progress" style="height: 5px;">
-              <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80"
+            <div class="progress">
+              <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 80%" aria-valuenow="80"
                 aria-valuemin="0" aria-valuemax="100"></div>
             </div>
           </div>
@@ -27,8 +52,8 @@
                     text-sm-center">
               CSS <span>60%</span>
             </p>
-            <div class="progress" style="height: 5px;">
-              <div class="progress-bar" role="progressbar" style="width:60%" aria-valuenow="60"
+            <div class="progress">
+              <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width:60%" aria-valuenow="60"
                 aria-valuemin="0" aria-valuemax="100"></div>
             </div>
           </div>
@@ -37,18 +62,18 @@
                     text-sm-center">
               BOOTSTRAP <span>60%</span>
             </p>
-            <div class="progress" style="height: 5px;">
-              <div class="progress-bar" role="progressbar" style="width:60%" aria-valuenow="60"
+            <div class="progress">
+              <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width:60%" aria-valuenow="60"
                 aria-valuemin="0" aria-valuemax="100"></div>
             </div>
           </div>
           <div>
             <p class="d-flex justify-content-between text-center
                     text-sm-center">
-              JAVA <span>20%</span>
+              JAVASCRIPT <span>20%</span>
             </p>
-            <div class="progress" style="height: 5px;">
-              <div class="progress-bar" role="progressbar" style="width:20%" aria-valuenow="20"
+            <div class="progress">
+              <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width:20%" aria-valuenow="20"
                 aria-valuemin="0" aria-valuemax="100"></div>
             </div>
           </div>
@@ -57,45 +82,33 @@
                     text-sm-center">
               VUE <span>100%</span>
             </p>
-            <div class="progress" style="height: 5px;">
-              <div class="progress-bar" role="progressbar" style="width:100%" aria-valuenow="100"
+            <div class="progress">
+              <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width:100%" aria-valuenow="100"
                 aria-valuemin="0" aria-valuemax="100"></div>
             </div>
           </div>
       </div>
       <!-- /technical skills/ -->
-      <!-- /about me/ -->
-      <div id="about-me" class="col-6">
-        <h1>MIKHAIL THOMAS</h1>
-        <p>I am an aspiring web developer taking part in the Life Choices coding internship. I am an athletic,
-        respectful, hardworking and dedicated young man who is committed to improving as a person no matter how
-        difficult the journey is. I grew up in Cape Town, South Africa where i currently reside. I am a practicing
-        massage therapist and I'm currently taking part in the holistic massage course at Healing Hands Academy. I
-        am a jiu jitsu practitioner and coach at Estrategia bjj, this is where I found my passion for coaching,
-        health and fitness. I am using all of these activities to learn lessons that will help me pursue my
-        long term goal of becoming independant. </p>
-      </div>
-      <!-- /about me/ -->
       <!-- soft skills -->
-      <div id="soft" class="col-3">
+      <div id="soft" class="col-6">
         <h2>SOFT SKILLS</h2>
         <div>
               <p class="d-flex justify-content-between text-center
                     text-sm-center">
                 TEAM WORK <span>90%</span>
               </p>
-              <div class="progress" style="height: 5px;">
-                <div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="90"
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 90%" aria-valuenow="90"
                   aria-valuemin="0" aria-valuemax="100"></div>
               </div>
             </div>
             <div>
               <p class="d-flex justify-content-between text-center
                     text-sm-center">
-                HARD WORKING<span>90%</span>
+                HARD WORK<span>90%</span>
               </p>
-              <div class="progress" style="height: 5px;">
-                <div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="90"
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 90%" aria-valuenow="90"
                   aria-valuemin="0" aria-valuemax="100"></div>
               </div>
             </div>
@@ -104,8 +117,8 @@
                     text-sm-center">
                 TRUSTING <span>100%</span>
               </p>
-              <div class="progress" style="height: 5px;">
-                <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100"
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 100%" aria-valuenow="100"
                   aria-valuemin="0" aria-valuemax="100"></div>
               </div>
             </div>
@@ -114,8 +127,8 @@
                     text-sm-center">
                 DETERMINATION <span>90%</span>
               </p>
-              <div class="progress" style="height: 5px;">
-                <div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="90"
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 90%" aria-valuenow="90"
                   aria-valuemin="0" aria-valuemax="100"></div>
               </div>
             </div>
@@ -124,7 +137,7 @@
                     text-sm-center">
                 HUMILITY <span>0%</span>
               </p>
-              <div class="progress" style="height: 5px;">
+              <div class="progress">
                 <div class="progress-bar" role="progressbar" style="width: 0%" aria-valuenow="0"
                   aria-valuemin="0" aria-valuemax="100"></div>
               </div>
@@ -133,14 +146,108 @@
       <!-- /soft skills/ -->
     </div>
   </div>
-  <!-- /Laptop section/ -->
 </template>
 <script>
 
 </script>
 <style scoped>
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Alfa Slab One', cursive;
+}
+
 #about{
   background-color: gold;
+  padding-bottom: 3rem;
+  padding-top: 3rem;
 }
+
+#main {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 5rem;
+	margin: auto 10px auto;
+}
+
+.frame {
+  border: 10px solid red;
+  box-shadow: 3px 3px 4px black;
+  height: 400px;
+ 	overflow: hidden;
+  position: relative;
+  width: 300px;
+}
+
+.frame a {
+  display: block;
+	height: 100%;
+  width: 100%;
+}
+
+.frame img {
+  display: block;
+  object-fit: contain;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 0;
+}
+
+.frame a .caption {
+	background-color: rgba(0, 0, 0, 0.7);
+	display: block;
+  overflow: hidden;
+  padding: 1rem;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 300px;
+	transition-property: top;
+  transition-duration: 0.2s;  
+  width: 100%;  
+  z-index: 10;
+}
+
+.frame a:hover .caption {
+	top: 0;
+  transition: all 2s;
+}
+
+.frame a .caption h2 {
+  color: orange;
+  font-size: 32px;
+	margin-bottom: 20px;
+}
+
+.frame a .caption p {
+  color: white;
+  display: none;
+  line-height: 150%;
+  transition: all 0.2s;  
+  width: 90%;
+}
+
+.frame a:hover .caption p {
+  display: block;
+  margin-bottom: 20px;
+}
+
+#info{
+  padding-top: 3rem;
+}
+.progress{
+  height: 20px;
+  background-color: grey;
+  box-shadow: 3px 3px 4px black;
+}
+
+.progress-bar{
+  background-color: red;
+  
+}
+
 </style>
 

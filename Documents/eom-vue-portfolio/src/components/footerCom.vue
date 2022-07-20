@@ -13,8 +13,8 @@ export default{
     footer{
         width: 100vw;
         background-color: gold;
-        position: fixed;
+        position: relative;
         bottom: 0;
-
+        border-top: solid whitesmoke;
     }
 </style>

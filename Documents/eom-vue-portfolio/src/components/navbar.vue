@@ -37,6 +37,7 @@ export default {
 <style scoped>
 #navbar{
    background-color: gold;
+   border-bottom: solid whitesmoke;
 }
 #logo{
     width: 100px;
