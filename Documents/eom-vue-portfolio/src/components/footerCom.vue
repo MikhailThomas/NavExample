@@ -11,9 +11,10 @@ export default{
 </script>
 <style scoped>
     footer{
+        max-height: 4rem;
         width: 100vw;
         background-color: gold;
-        position: relative;
+        position: sticky;
         bottom: 0;
         border-top: solid whitesmoke;
     }

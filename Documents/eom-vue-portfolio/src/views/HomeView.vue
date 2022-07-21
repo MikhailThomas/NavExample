@@ -34,7 +34,7 @@ body{
 
 span {
   transition: all 0.5s;
-  -webkit-text-stroke: 4px orangered;
+  -webkit-text-stroke: 4px rgb(255, 0, 0);
   font-variation-settings: "wght" 900, "ital" 1;
   font-size: 15rem;
   text-align: center;

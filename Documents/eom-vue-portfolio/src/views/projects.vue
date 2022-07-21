@@ -59,7 +59,7 @@
                       <div class="col-md-6">
                         <h4>Just Like Magic</h4>
                         <p>
-                          This is a rainbow that I created using HTML and CSS.
+                          Just like magic is a store we created in a team of 4. this was our first group project using vue.
                         </p>
                       </div>
                     </div>
@@ -93,9 +93,9 @@
                         <img class="img-fluid" src="../assets/logo.png" />
                       </div>
                       <div class="col-md-6">
-                        <h4>Just Like Magic</h4>
+                        <h4>Rainbow</h4>
                         <p>
-                          This is a rainbow that I created using HTML and CSS.
+                          This is a rainbow that I created using HTML and CSS during the first few weeks of the coding programme.
                         </p>
                       </div>
                     </div>
@@ -129,9 +129,9 @@
                         <img class="img-fluid" src="../assets/logo.png" />
                       </div>
                       <div class="col-md-6">
-                        <h4>Just Like Magic</h4>
+                        <h4>To-Do List</h4>
                         <p>
-                          This is a rainbow that I created using HTML and CSS.
+                          This is a To-Do List i created using HTML JavaScript and CSS practicing functionality.
                         </p>
                       </div>
                     </div>
@@ -165,9 +165,9 @@
                         <img class="img-fluid" src="../assets/logo.png" />
                       </div>
                       <div class="col-md-6">
-                        <h4>Just Like Magic</h4>
+                        <h4>Holiday Destination</h4>
                         <p>
-                          This is a rainbow that I created using HTML and CSS.
+                          This is my personal top 5 holiday destination i would like to travel to i made this using HTML.
                         </p>
                       </div>
                     </div>
@@ -201,9 +201,9 @@
                         <img class="img-fluid" src="../assets/logo.png" />
                       </div>
                       <div class="col-md-6">
-                        <h4>Just Like Magic</h4>
+                        <h4>Calculator</h4>
                         <p>
-                          This is a rainbow that I created using HTML and CSS.
+                          This is a Calculator that I created using HTML and CSS and JavaScript.
                         </p>
                       </div>
                     </div>
@@ -237,9 +237,9 @@
                         <img class="img-fluid" src="../assets/logo.png" />
                       </div>
                       <div class="col-md-6">
-                        <h4>Just Like Magic</h4>
+                        <h4>Location Location Location</h4>
                         <p>
-                          This is a rainbow that I created using HTML and CSS.
+                          This is a Real Estate estate website used to sell properties and it has an admin page used to edit delete and add functions. I made this using HTML, CSS and JavaScript.
                         </p>
                       </div>
                     </div>
@@ -273,9 +273,9 @@
                         <img class="img-fluid" src="../assets/logo.png" />
                       </div>
                       <div class="col-md-6">
-                        <h4>Just Like Magic</h4>
+                        <h4>Portfolio</h4>
                         <p>
-                          This is a rainbow that I created using HTML and CSS.
+                          This is the very first portfolio i made when i was fresh to HTML and CSS and i am extremely proud of my work.
                         </p>
                       </div>
                     </div>
@@ -309,9 +309,9 @@
                         <img class="img-fluid" src="../assets/logo.png" />
                       </div>
                       <div class="col-md-6">
-                        <h4>Just Like Magic</h4>
+                        <h4>Temperature Converter</h4>
                         <p>
-                          This is a rainbow that I created using HTML and CSS.
+                          This temperature converter i made using mostly JavaScript with only a handfull of HTML and CSS
                         </p>
                       </div>
                     </div>
@@ -345,9 +345,9 @@
                         <img class="img-fluid" src="../assets/logo.png" />
                       </div>
                       <div class="col-md-6">
-                        <h4>Just Like Magic</h4>
+                        <h4>Daggerfall</h4>
                         <p>
-                          This is a rainbow that I created using HTML and CSS.
+                          This is a site that I created using HTML and CSS.
                         </p>
                       </div>
                     </div>
