@@ -1,10 +1,4 @@
 <template>
-  <h2>Indeed</h2>
-  <!-- <div v-if="slide">
-    <div v-for="img in slide">
-        <img :src="img.img" alt="">
-    </div>
-  </div> -->
   <div id="carousel-con" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-inner">
       <div class="carousel-item active"  v-for="slides in slide" :key="slides">

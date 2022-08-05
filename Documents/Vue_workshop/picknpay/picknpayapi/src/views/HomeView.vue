@@ -1,5 +1,4 @@
 <template>
-<h2>Ayo</h2>
  <carousel />
 </template>
 

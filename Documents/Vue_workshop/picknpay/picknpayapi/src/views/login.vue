@@ -1,5 +1,5 @@
 <template>
-<div id="page" class="text-center">
+<div id="page" class="text-center my-auto">
   <form id="form" method="post" action="" class="row mx-auto">
     <input class="form-control" name="firstname" type="text" placeholder="firstname">
     <input class="form-control" name="Surname" type="text" placeholder="Surname">
@@ -24,7 +24,6 @@ export default {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background: ;
     }
 #form{
     width: 50rem;
